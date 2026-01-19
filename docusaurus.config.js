@@ -138,11 +138,13 @@ const config = {
                     'default': 'https://api.joomla.org/cms-5/',
                     '4': 'https://api.joomla.org/cms-4/',
                     '5': 'https://api.joomla.org/cms-5/',
+                    '6': 'https://api.joomla.org/cms-6/',
                   },
                   frameworkMap: {
                     'default': 'https://api.joomla.org/framework-3/',
                     '4': 'https://api.joomla.org/framework-2/',
                     '5': 'https://api.joomla.org/framework-3/',
+                    '6': 'https://api.joomla.org/framework-4/',
                   }
                 }]
           ],
