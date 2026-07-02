@@ -9,7 +9,7 @@ Step-by-step list to set up a development environment for an existing extension
 2. Create a project on GitHub or your git manager of choice
 3. Clone the git repository into your folder or initialise a new git repository with `git init`
 4. Run `composer require --dev joomla-projects/jorobo` in the folder
-5. Run `vendor/bin/jorobo init` in the folder and say `yes` to use all features. You now have `php-cs-fixer`, `phpcs` for code style, `phpstan` for static code analysis, `phpunit` for unit tests, `JoRobo` for release packaging and some additional tasks, `.gitignore` and `.editorconfig` for your IDE configured, as well as a `/src` folder for your source code.
+5. Run `vendor/bin/jorobo init` in the folder and say `yes` to use all the features. You now have `php-cs-fixer`, `phpcs` for code style, `phpstan` for static code analysis, `phpunit` for unit tests, `JoRobo` for release packaging and some additional tasks, `.gitignore` and `.editorconfig` for your IDE configured, as well as a `/src` folder for your source code.
 6. Run `vendor/bin/jorobo ci` in the folder and select if you want to insert a setup for a GitHub Actions or GitLab CI setup.
 7. Modify your `jorobo.dist.ini` for your project
 8. Commit all of this for your initial commit to your project.
